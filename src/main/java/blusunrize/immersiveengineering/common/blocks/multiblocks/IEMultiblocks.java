@@ -45,6 +45,7 @@ public class IEMultiblocks
 	public static IETemplateMultiblock MIXER;
 	public static IETemplateMultiblock REFINERY;
 	public static IETemplateMultiblock SHEETMETAL_TANK;
+	public static IETemplateMultiblock ALU_SHEETMETAL_TANK;
 	public static IETemplateMultiblock SILO;
 	public static IETemplateMultiblock SQUEEZER;
 
@@ -90,6 +91,7 @@ public class IEMultiblocks
 		MIXER = new MixerMultiblock();
 		REFINERY = new RefineryMultiblock();
 		SHEETMETAL_TANK = new SheetmetalTankMultiblock();
+		ALU_SHEETMETAL_TANK = new AluSheetmetalTankMultiblock();
 		SILO = new SiloMultiblock();
 		SQUEEZER = new SqueezerMultiblock();
 		EXCAVATOR_DEMO = new UnionMultiblock(new ResourceLocation(ImmersiveEngineering.MODID, "excavator_demo"),

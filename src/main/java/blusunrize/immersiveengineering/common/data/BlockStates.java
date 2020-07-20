@@ -736,6 +736,7 @@ public class BlockStates extends BlockStateProvider
 		createMultiblock(Multiblocks.blastFurnaceAdv, obj("block/blastfurnace_advanced.obj"));
 		createMultiblock(Multiblocks.silo, obj("block/metal_multiblock/silo.obj"));
 		createMultiblock(Multiblocks.tank, obj("block/metal_multiblock/tank.obj"));
+		createMultiblock(Multiblocks.alutank, obj("block/metal_multiblock/alu_tank.obj"));
 		createMultiblock(Multiblocks.bottlingMachine,
 				obj("block/metal_multiblock/bottling_machine.obj"),
 				obj("block/metal_multiblock/bottling_machine_mirrored.obj"));

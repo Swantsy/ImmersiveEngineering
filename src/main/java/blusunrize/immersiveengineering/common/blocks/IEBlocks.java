@@ -68,6 +68,7 @@ public final class IEBlocks
 		public static Block metalPress;
 		public static Block crusher;
 		public static Block tank;
+		public static Block alutank;
 		public static Block silo;
 		public static Block assembler;
 		public static Block autoWorkbench;
